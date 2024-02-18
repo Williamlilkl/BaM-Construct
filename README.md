@@ -7,3 +7,7 @@ You will get the message that the project contains errors. Click Ignore. Then se
         public InputMode m_RightInputMode;
 
 Also when you want to use Vivox ensure to get your service credentials and enter these in the VivoxVoiceManager component in the main scene.
+
+Finally.... Open the Scenes/SampleScene scene
+
+Let me know if you run into any issues
