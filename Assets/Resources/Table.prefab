@@ -141,8 +141,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabs:
-  - {fileID: 3988989061465932904, guid: 52f8f98569661004b9024f4c23ebd0d2, type: 3}
-  maxObjectsToSpawn: 150
+  - {fileID: 3988989061465932904, guid: 384cbe47df4e0774386d436395dfc328, type: 3}
+  maxObjectsToSpawn: 3
 --- !u!114 &-8878150360505848450
 MonoBehaviour:
   m_ObjectHideFlags: 0
