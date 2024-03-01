@@ -65,7 +65,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c085215423c583047b4f4780ca03844c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useWebRepository: 0
-  assetBundleUrl: https://YOURURLHERE
+  useWebRepository: 1
+  assetBundleUrl: 
   retryTime: 5
   pinSize: 5
