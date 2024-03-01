@@ -52,6 +52,7 @@ Steps to get started
 5. In the VivoxVoiceManager, enter your Vivox service credentials (if not used (yet), leave them blank)
 6. In Prefabs, click on the DynamicPrefabStarter object, select its ClientServerJoinProtocol script and ensure that UseWebRepository is UNCHECKED
 7. Check the Platform setting under Unity Menu->File->Build Settings, if you want to compile for standalone VR (eg. Meta Quest1,2,3) select Android otherwise select Windows
+8. Finally, go to File -> Open Scene -> SampleScene
    
 If you want to use remote prefabs
 =================================
