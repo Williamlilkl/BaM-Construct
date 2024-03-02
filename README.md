@@ -63,13 +63,13 @@ Steps to get started
 3. Go to Packages/xr interaction toolkit/Runtime/Inputs
 4. Open the file XRInputModalityManager.cs and go to line 210 and 211 and change these to: public InputMode m_LeftInputMode; public InputMode m_RightInputMode;
 5. In the VivoxVoiceManager, enter your Vivox service credentials (if not used (yet), leave them blank)
-6. In Prefabs, click on the DynamicPrefabStarter object, select its ClientServerJoinProtocol script and ensure that UseWebRepository is UNCHECKED
+6. In Assets/Prefabs, click on the DynamicPrefabStarter object, select its ClientServerJoinProtocol script and ensure that UseWebRepository is UNCHECKED
 7. Check the Platform setting under Unity Menu->File->Build Settings, if you want to compile for standalone VR (eg. Meta Quest1,2,3) select Android otherwise select Windows
 8. Finally, go to File -> Open Scene -> SampleScene
    
 If you want to use remote prefabs
 =================================
-1. In Prefabs, click on the DynamicPrefabStarter object, select its ClientServerJoinProtocol script and ensure that UseWebRepository is CHECKED
+1. In Assets/Prefabs, click on the DynamicPrefabStarter object, select its ClientServerJoinProtocol script and ensure that UseWebRepository is CHECKED
 2. Enter the url of your own webserver where you want the AssetBundles to be stored
 3. In the Assets menu in Unity, select Build Asset Bundles
 4. When that is completed, open a File Explorer and find your Assets folder, there is an AssetBundle folder with a windows and an android subfolder
