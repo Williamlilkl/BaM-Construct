@@ -62,10 +62,12 @@ Steps to get started
 2. Open Unity Editor, when prompted about Errors, select Ignore and do not start in safe mode
 3. Go to Packages/xr interaction toolkit/Runtime/Inputs
 4. Open the file XRInputModalityManager.cs and go to line 210 and 211 and change these to: public InputMode m_LeftInputMode; public InputMode m_RightInputMode;
-5. In the VivoxVoiceManager, enter your Vivox service credentials (if not used (yet), leave them blank)
-6. In Assets/Prefabs, click on the DynamicPrefabStarter object, select its ClientServerJoinProtocol script and ensure that UseWebRepository is UNCHECKED
-7. Check the Platform setting under Unity Menu->File->Build Settings, if you want to compile for standalone VR (eg. Meta Quest1,2,3) select Android otherwise select Windows
-8. Finally, go to File -> Open Scene -> SampleScene
+5. Go to File -> Open Scene -> SampleScene 
+6. In the VivoxVoiceManager, enter your Vivox service credentials (if not used (yet), leave them blank)
+7. In Assets/Prefabs, click on the DynamicPrefabStarter object, select its ClientServerJoinProtocol script and ensure that UseWebRepository is UNCHECKED
+8. Check the Platform setting under Unity Menu->File->Build Settings, if you want to compile for standalone VR (eg. Meta Quest1,2,3) select Android otherwise select Windows
+9. Open the Network Manager and change IP address of the host to the IP address of the device/PC that will act as the host 
+
    
 If you want to use remote prefabs
 =================================
