@@ -27,10 +27,9 @@ public class LaunchUI : MonoBehaviour
             NetworkManager.Singleton.StartHost(); //the server will now spawn the InitialNetworkPrefab
 
             //GRAB!
-            GameObject spawner = Resources.Load("Table") as GameObject;
+            GameObject spawner = Resources.Load("Room") as GameObject;
             GameObject go = Instantiate(spawner, ObjectSpawnerPosition, Quaternion.identity);
             go.GetComponent<NetworkObject>().Spawn();
-            go.GetComponent<GrabbableCreator>().SpawnGrabbables();
         });
 
 
