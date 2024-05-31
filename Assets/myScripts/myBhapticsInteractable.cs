@@ -61,8 +61,10 @@ public class myBhapticsInteractable : MonoBehaviour
                 BhapticsLibrary.Play(BhapticsEvent.LH1);
                 }
 
-                else
+                else{
                 Debug.Log("Error");
+                BhapticsLibrary.Play(BhapticsEvent.LH1);
+                }
             }
 
             else

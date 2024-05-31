@@ -25,11 +25,14 @@ public class myBhaptics : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+
         if(other.GetComponentInParent<AudioSource>() != null){
         audioSource =other.GetComponentInParent<AudioSource>();
         audioSource.Pause();
         Debug.Log("Paused"); 
         }
+
+        BhapticsLibrary.Play(BhapticsEvent.LH1);
 
     }
 }
